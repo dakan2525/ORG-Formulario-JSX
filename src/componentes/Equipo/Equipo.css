@@ -1,0 +1,49 @@
+.equipo{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.equipo h3{
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.colaboradores{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 368px) {
+    .equipo{
+        width: 100%;
+        font-size: 1.2rem;
+        padding-bottom: 0.3rem;
+    }
+    .equipo h3{
+        border-bottom: 3px solid;
+    }
+    .input-color{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        width: 2.5rem;
+        height: 1.5rem;
+        border: 0;
+        margin: 0;
+    }
+}    
+
+
