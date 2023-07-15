@@ -19,7 +19,7 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
     .orgSection{
     padding-bottom: 2rem;
     
@@ -33,7 +33,7 @@
         right: -30%;
     }
 }
-@media only screen and (max-width: 368px) {
+@media only screen and (max-width: 390px) {
     .orgSection{
         margin-top: 1.2rem;
     }

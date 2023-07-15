@@ -21,7 +21,7 @@
     color: #212121;
 }
 
-@media only screen and (max-width: 368px) {
+@media only screen and (max-width: 390px) {
     .formulario{
         flex-direction: column;
         margin: 30px 15px;
@@ -29,6 +29,7 @@
     }
     .formulario form{
         padding: 0;
+        
     }
     .formulario h2{
         font-size: 0.9rem;  

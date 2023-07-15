@@ -4,6 +4,8 @@
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 8px;
+    width: 100%;
+    
 }
 
 .lista-opciones select{
@@ -14,18 +16,21 @@
     border: none;
     outline-color: #6278F7;
     font-size: 16px;
+    border-radius: 1rem;
 }
 
-@media only screen and (max-width: 368px) {
+@media only screen and (max-width: 390px) {
     .lista-opciones label{
         font-size: 0.8rem;
-        margin-left: 1rem;
+        margin: 0 10px;
+        
         
     }
     .lista-opciones select{
         font-size: 0.8rem;
-        padding: 1rem 1.5rem;
+        padding: 0.8rem 1rem;
         width: 95%;
+        margin: 0 10px
     }
     
 }
